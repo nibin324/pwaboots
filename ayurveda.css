@@ -1,0 +1,216 @@
+
+/* body{
+   overflow-x: hidden;
+} */
+
+
+marquee{
+    direction: left;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.image2{
+    width: 100%;
+    height: 700px;
+}
+
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 15px;
+}
+
+.footer-bottom{
+    background-color: #b49442;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul li a:hover{
+    color: #b49442;
+}
+
+.btn1{
+    width: 120px;
+    height: 40px;
+    margin-left: 60px;
+    background-color: #f5fcff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: 1px solid #02922b;
+}
+
+
+
+.open-button {
+    background-color: #606162;
+    font-weight: bold;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #808181;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    opacity: 2;
+  }
+ .open-button:focus{
+    background-color: transparent;
+    outline: none;
+ }
+  .chat24 {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+  }
+  
+  .form-container {
+    max-width: 250px;
+    max-height: 800px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #7e8081;
+    margin-right: -3px;
+  }
+  
+
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color:  #ffffff;
+    resize: none;
+    min-height: 50px;
+    border: 1px solid #7e8081;
+  }
+  
+  .form-container textarea:focus {
+    background-color: #ffffff;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: 	#ACDDDE;
+    color: #606162;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-bottom:10px;
+    opacity: 0.8;
+    margin-left: 180px;
+  }
+
+
+  #myBtn {
+    background: transparent;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    top: 23px;
+    right: 3px;
+  }
+ #myBtn:focus{
+    background-color: transparent;
+    outline: none;
+ }
+
+
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+  }
+  
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #b49442;
+  }
+  .modal-body{
+      background-color: #e0ffff;
+  }
+
+  .btn33{
+    background-color: #b49442;    
+  }
+
+  .btn33:hover{
+    background-color: #7a482c;    
+    color: #ffffff;
+  }
+
+
+  .open-button3 {
+    background: transparent;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 133px;
+    right: 15px;
+  }
+
+  .open-button3:focus{
+    background-color: transparent;
+    outline: none;
+ }
+
+ .btn89:focus{
+    background-color: transparent;
+    outline: none;
+ }

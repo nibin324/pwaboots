@@ -1,0 +1,22 @@
+{
+    "name": "nibin",
+    "short_name": "nibin",
+    "start_url": ".",
+    "background_color": "yellow",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+
+        },
+        {
+            "src": "images/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+
+        }
+    ]
+}
